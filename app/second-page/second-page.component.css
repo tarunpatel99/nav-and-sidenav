@@ -1,0 +1,8 @@
+.mat-card .mat-divider {
+    position: relative !important;
+    width: auto !important;
+}
+
+.mat-list-item {
+ font-weight: 500;
+}

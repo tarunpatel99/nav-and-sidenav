@@ -1,0 +1,117 @@
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav-container {
+  height: 100%;
+}
+
+.mat-nav-list {
+  padding: 0;
+}
+
+.mat-side-nav {
+  position: fixed;
+  top: 0;
+  left: auto;
+  height: 100%;
+}
+
+.content {
+  position: relative;
+    /* height: -moz-calc(100% - 100px);
+    height: -webkit-calc(100% - 100px); */
+    height: 874px;
+    width: auto;
+    overflow-y: scroll;
+}
+
+/* .profile {
+  position: relative;
+  padding-top: 20px !important;
+  padding-left: 25px !important;
+  height: auto !important;
+} */
+
+.pro-pic {
+  height: 100px;
+  width: 100px;
+}
+
+.bg-white {
+  background: white;
+  color: black;
+}
+
+.sidenav {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  /* z-index: 2; */
+}
+
+.active {
+  background: /* rgba(00, 00, 00, 0.06) */ rgba(63,81,181,.12) !important; 
+  color: #3f51b5;
+}
+
+.mat-nav-list-focus {
+  background: /* rgba(00, 00, 00, 0.06) */ rgba(63,81,181,.12) !important;
+}
+
+.short-name {
+  font-size: 30px !important;
+}
+
+.mat-card-title, .mat-card-subtitle {
+  margin-bottom: 0px !important;
+}
+
+.flex {
+  /* flex: 1 1 auto !important; */
+  flex: 1 1 calc(50% - 25px) !important;
+  /* min-width: calc(50% - 25px) !important; */
+  /* flex: 1 1 1e-09px; 
+  box-sizing: border-box; -webkit-box-flex: 1; */
+}
+
+.nav {
+  position: absolute;
+  display: flex;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+/* .nav > .example-header-image {
+  position: fixed;
+  right: 11px !important;
+  top: 6px !important;
+} */
+
+.nav-space-filler {
+  height: 64px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+}
+
+/* app-first-page {
+  overflow: scroll;
+} */

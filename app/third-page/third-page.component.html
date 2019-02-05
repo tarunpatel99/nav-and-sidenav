@@ -1,0 +1,16 @@
+<div class="container">
+    <mat-card class="code-card" *ngFor="let card of cards">
+        <div class="title-bar">
+            <div class="close"></div>
+            <div class="max"></div>
+            <div class="min"></div>
+            <div class="code-title"><span>{{card.codetitle}}</span></div>
+        </div>
+        <div class="code" matColumnDef="code">
+            <span>{{card.code}}</span>
+            <button mat-icon-button class="copy" >
+                <mat-icon class="material-icons md-18" matTooltip="Copy" matTooltipPosition="right" aria-label="Example icon-button with a heart icon">file_copy</mat-icon>
+            </button>
+        </div>
+    </mat-card>
+</div>
